@@ -14,6 +14,16 @@
         
         </action>
         
+        <action name="mykite" class="com.isoft.model.KiteAction" method="myHello">
+           <result name="gotoKiteResult">myResult.jsp</result>
+        
+        </action>
+
+	    <action name="myjack_*" class="com.isoft.model.JackAction" method="{1}">
+           <result name="myTestResult">myResult.jsp</result>
+        
+        </action>        
+        
     </package>
 
     

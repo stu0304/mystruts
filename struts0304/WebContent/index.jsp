@@ -10,5 +10,13 @@
  这是主页.....
 
 <a href="mykfc.action"> 默认方法</a>
+
+<a href="mykite.action"> 绑定方法method</a>
+
+<a href="myjack!hello.action">! 动态方法调用method</a>
+
+<a href="myjack_hello.action">* 动态方法调用method</a>
+
+<a href="myjack_myTest.action?myUserName=tom">request * 动态方法调用method</a>
 </body>
 </html>

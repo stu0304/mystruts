@@ -8,5 +8,6 @@
 <body>
   这是结果页
 
+  你好： ${myname}
 </body>
 </html>
